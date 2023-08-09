@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(../images/bg-pattern-top.svg) no-repeat -300px -450px,
+    url(../images/bg-pattern-bottom.svg) no-repeat 650px 400px;
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  color: hsl(229, 23%, 23%);
+}
+h1 {
+  font-size: 1em;
+}
+p {
+  color: hsl(0, 0%, 59%);
+}
+span {
+  margin-left: 10px;
+  color: hsl(0, 0%, 59%);
+  font-weight: normal;
+}
+
+.container {
+  background: url(../images/bg-pattern-card.svg) no-repeat 0% 0% / 100% 40%;
+  background-color: white;
+  width: 350px;
+  border-radius: 15px;
+  text-align: center;
+}
+.container > img {
+  display: block;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 92px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 0 5px white;
+}
+.container > * {
+  margin-bottom: 15px;
+}
+.inner-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.inner-box h2 {
+  font-size: large;
+  margin-right: 25px;
+}
+.inner-box p {
+  font-size: x-small;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
