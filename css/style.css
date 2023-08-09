@@ -29,6 +29,7 @@ span {
 .container {
   background: url(../images/bg-pattern-card.svg) no-repeat 0% 0% / 100% 40%;
   background-color: white;
+  height: 400px;
   width: 350px;
   border-radius: 15px;
   text-align: center;
@@ -42,7 +43,7 @@ span {
   box-shadow: 0 0 0 5px white;
 }
 .container > * {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 .inner-box {
   display: flex;
@@ -54,7 +55,9 @@ span {
   font-size: large;
   margin-right: 25px;
 }
-.inner-box p {
+.inner-box span {
+  display: block;
+  margin-top: 8px;
   font-size: x-small;
   letter-spacing: 2px;
   font-weight: normal;
